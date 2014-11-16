@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		594D38B119B47A4E003D8446 /* PersonalDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D38AF19B47A4E003D8446 /* PersonalDetailTableViewController.m */; };
+		594D38B219B47A4E003D8446 /* PersonalDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594D38B019B47A4E003D8446 /* PersonalDetailTableViewController.xib */; };
+		594D38B419B47B87003D8446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 594D38B319B47B87003D8446 /* Default-568h@2x.png */; };
 		C1DD076815B6654A005138B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD076715B6654A005138B6 /* UIKit.framework */; };
 		C1DD076A15B6654A005138B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD076915B6654A005138B6 /* Foundation.framework */; };
 		C1DD076C15B6654A005138B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD076B15B6654A005138B6 /* CoreGraphics.framework */; };
@@ -17,11 +20,21 @@
 		C1DD077E15B6654A005138B6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD077D15B6654A005138B6 /* DetailViewController.m */; };
 		C1DD078115B6654A005138B6 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DD077F15B6654A005138B6 /* MasterViewController.xib */; };
 		C1DD078415B6654B005138B6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DD078215B6654B005138B6 /* DetailViewController.xib */; };
-		C1DD078C15B6654B005138B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD078B15B6654B005138B6 /* SenTestingKit.framework */; };
 		C1DD078D15B6654B005138B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD076715B6654A005138B6 /* UIKit.framework */; };
 		C1DD078E15B6654B005138B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD076915B6654A005138B6 /* Foundation.framework */; };
 		C1DD079615B6654B005138B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1DD079415B6654B005138B6 /* InfoPlist.strings */; };
 		C1DD079915B6654B005138B6 /* datoucontactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD079815B6654B005138B6 /* datoucontactsTests.m */; };
+		C1DD07AC15B66584005138B6 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = C1DD07AA15B66584005138B6 /* pinyin.c */; };
+		C1DD07B215B665E9005138B6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD07B115B665E9005138B6 /* AddressBook.framework */; };
+		C1DD07B315B66C80005138B6 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = C1DD07AA15B66584005138B6 /* pinyin.c */; };
+		C1DD07C215B6C085005138B6 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD07C115B6C085005138B6 /* POAPinyin.m */; };
+		C1DD07C415B6C0FD005138B6 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD07C115B6C085005138B6 /* POAPinyin.m */; };
+		C1DEA12B15B79AE300B116CD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DEA12A15B79AE300B116CD /* AddressBookUI.framework */; };
+		C1DEA13415B7A74B00B116CD /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DEA13215B7A74B00B116CD /* GroupViewController.m */; };
+		C1DEA13515B7A74B00B116CD /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DEA13315B7A74B00B116CD /* GroupViewController.xib */; };
+		C1DEA13915B7A8D000B116CD /* bgd1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DEA13615B7A8CF00B116CD /* bgd1.png */; };
+		C1DEA13A15B7A8D000B116CD /* pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DEA13715B7A8CF00B116CD /* pressed.png */; };
+		C1DEA13B15B7A8D000B116CD /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DEA13815B7A8CF00B116CD /* normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,28 +48,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		594D38AE19B47A4E003D8446 /* PersonalDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDetailTableViewController.h; sourceTree = "<group>"; };
+		594D38AF19B47A4E003D8446 /* PersonalDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailTableViewController.m; sourceTree = "<group>"; };
+		594D38B019B47A4E003D8446 /* PersonalDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalDetailTableViewController.xib; sourceTree = "<group>"; };
+		594D38B319B47B87003D8446 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C1DD076315B6654A005138B6 /* datoucontacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datoucontacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DD076715B6654A005138B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C1DD076915B6654A005138B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1DD076B15B6654A005138B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C1DD076F15B6654A005138B6 /* datoucontacts-Info.plist */ = {isa = PBXFileReference; path = "datoucontacts-Info.plist"; sourceTree = "<group>"; };
+		C1DD076F15B6654A005138B6 /* datoucontacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "datoucontacts-Info.plist"; sourceTree = "<group>"; };
 		C1DD077115B6654A005138B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1DD077315B6654A005138B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1DD077515B6654A005138B6 /* datoucontacts-Prefix.pch */ = {isa = PBXFileReference; path = "datoucontacts-Prefix.pch"; sourceTree = "<group>"; };
-		C1DD077615B6654A005138B6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1DD077515B6654A005138B6 /* datoucontacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "datoucontacts-Prefix.pch"; sourceTree = "<group>"; };
+		C1DD077615B6654A005138B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1DD077715B6654A005138B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1DD077915B6654A005138B6 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		C1DD077915B6654A005138B6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		C1DD077A15B6654A005138B6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C1DD077C15B6654A005138B6 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		C1DD077C15B6654A005138B6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C1DD077D15B6654A005138B6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C1DD078015B6654A005138B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		C1DD078315B6654B005138B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
-		C1DD078A15B6654B005138B6 /* datoucontactsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datoucontactsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1DD078B15B6654B005138B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C1DD079315B6654B005138B6 /* datoucontactsTests-Info.plist */ = {isa = PBXFileReference; path = "datoucontactsTests-Info.plist"; sourceTree = "<group>"; };
+		C1DD078A15B6654B005138B6 /* datoucontactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datoucontactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD079315B6654B005138B6 /* datoucontactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "datoucontactsTests-Info.plist"; sourceTree = "<group>"; };
 		C1DD079515B6654B005138B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C1DD079715B6654B005138B6 /* datoucontactsTests.h */ = {isa = PBXFileReference; path = datoucontactsTests.h; sourceTree = "<group>"; };
+		C1DD079715B6654B005138B6 /* datoucontactsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datoucontactsTests.h; sourceTree = "<group>"; };
 		C1DD079815B6654B005138B6 /* datoucontactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = datoucontactsTests.m; sourceTree = "<group>"; };
+		C1DD07AA15B66584005138B6 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		C1DD07AB15B66584005138B6 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		C1DD07B115B665E9005138B6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C1DD07C015B6C085005138B6 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		C1DD07C115B6C085005138B6 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
+		C1DEA12A15B79AE300B116CD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		C1DEA12C15B79C8C00B116CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MasterViewController.xib"; sourceTree = "<group>"; };
+		C1DEA13115B7A74B00B116CD /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		C1DEA13215B7A74B00B116CD /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
+		C1DEA13315B7A74B00B116CD /* GroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		C1DEA13615B7A8CF00B116CD /* bgd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgd1.png; sourceTree = "<group>"; };
+		C1DEA13715B7A8CF00B116CD /* pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressed.png; sourceTree = "<group>"; };
+		C1DEA13815B7A8CF00B116CD /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DEA12B15B79AE300B116CD /* AddressBookUI.framework in Frameworks */,
+				C1DD07B215B665E9005138B6 /* AddressBook.framework in Frameworks */,
 				C1DD076815B6654A005138B6 /* UIKit.framework in Frameworks */,
 				C1DD076A15B6654A005138B6 /* Foundation.framework in Frameworks */,
 				C1DD076C15B6654A005138B6 /* CoreGraphics.framework in Frameworks */,
@@ -74,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DD078C15B6654B005138B6 /* SenTestingKit.framework in Frameworks */,
 				C1DD078D15B6654B005138B6 /* UIKit.framework in Frameworks */,
 				C1DD078E15B6654B005138B6 /* Foundation.framework in Frameworks */,
 			);
@@ -83,9 +112,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		597A9D5F19B4BE9D0091FD1B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD077915B6654A005138B6 /* MasterViewController.h */,
+				C1DD077A15B6654A005138B6 /* MasterViewController.m */,
+				C1DEA13115B7A74B00B116CD /* GroupViewController.h */,
+				C1DEA13215B7A74B00B116CD /* GroupViewController.m */,
+				C1DD07AA15B66584005138B6 /* pinyin.c */,
+				C1DD07AB15B66584005138B6 /* pinyin.h */,
+				C1DD07C015B6C085005138B6 /* POAPinyin.h */,
+				C1DD07C115B6C085005138B6 /* POAPinyin.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		C1DD075815B6654A005138B6 = {
 			isa = PBXGroup;
 			children = (
+				594D38B319B47B87003D8446 /* Default-568h@2x.png */,
 				C1DD076D15B6654A005138B6 /* datoucontacts */,
 				C1DD079115B6654B005138B6 /* datoucontactsTests */,
 				C1DD076615B6654A005138B6 /* Frameworks */,
@@ -97,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				C1DD076315B6654A005138B6 /* datoucontacts.app */,
-				C1DD078A15B6654B005138B6 /* datoucontactsTests.octest */,
+				C1DD078A15B6654B005138B6 /* datoucontactsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,10 +150,11 @@
 		C1DD076615B6654A005138B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1DEA12A15B79AE300B116CD /* AddressBookUI.framework */,
+				C1DD07B115B665E9005138B6 /* AddressBook.framework */,
 				C1DD076715B6654A005138B6 /* UIKit.framework */,
 				C1DD076915B6654A005138B6 /* Foundation.framework */,
 				C1DD076B15B6654A005138B6 /* CoreGraphics.framework */,
-				C1DD078B15B6654B005138B6 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,11 +162,17 @@
 		C1DD076D15B6654A005138B6 /* datoucontacts */ = {
 			isa = PBXGroup;
 			children = (
+				597A9D5F19B4BE9D0091FD1B /* New Group */,
+				C1DEA13615B7A8CF00B116CD /* bgd1.png */,
+				C1DEA13715B7A8CF00B116CD /* pressed.png */,
+				C1DEA13815B7A8CF00B116CD /* normal.png */,
 				C1DD077615B6654A005138B6 /* AppDelegate.h */,
 				C1DD077715B6654A005138B6 /* AppDelegate.m */,
-				C1DD077915B6654A005138B6 /* MasterViewController.h */,
-				C1DD077A15B6654A005138B6 /* MasterViewController.m */,
+				C1DEA13315B7A74B00B116CD /* GroupViewController.xib */,
 				C1DD077C15B6654A005138B6 /* DetailViewController.h */,
+				594D38AE19B47A4E003D8446 /* PersonalDetailTableViewController.h */,
+				594D38AF19B47A4E003D8446 /* PersonalDetailTableViewController.m */,
+				594D38B019B47A4E003D8446 /* PersonalDetailTableViewController.xib */,
 				C1DD077D15B6654A005138B6 /* DetailViewController.m */,
 				C1DD077F15B6654A005138B6 /* MasterViewController.xib */,
 				C1DD078215B6654B005138B6 /* DetailViewController.xib */,
@@ -195,8 +247,8 @@
 			);
 			name = datoucontactsTests;
 			productName = datoucontactsTests;
-			productReference = C1DD078A15B6654B005138B6 /* datoucontactsTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = C1DD078A15B6654B005138B6 /* datoucontactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,7 +256,8 @@
 		C1DD075A15B6654A005138B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = C1DD075D15B6654A005138B6 /* Build configuration list for PBXProject "datoucontacts" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -212,6 +265,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = C1DD075815B6654A005138B6;
 			productRefGroup = C1DD076415B6654A005138B6 /* Products */;
@@ -231,7 +285,13 @@
 			files = (
 				C1DD077215B6654A005138B6 /* InfoPlist.strings in Resources */,
 				C1DD078115B6654A005138B6 /* MasterViewController.xib in Resources */,
+				594D38B419B47B87003D8446 /* Default-568h@2x.png in Resources */,
 				C1DD078415B6654B005138B6 /* DetailViewController.xib in Resources */,
+				C1DEA13515B7A74B00B116CD /* GroupViewController.xib in Resources */,
+				594D38B219B47A4E003D8446 /* PersonalDetailTableViewController.xib in Resources */,
+				C1DEA13915B7A8D000B116CD /* bgd1.png in Resources */,
+				C1DEA13A15B7A8D000B116CD /* pressed.png in Resources */,
+				C1DEA13B15B7A8D000B116CD /* normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DD07C415B6C0FD005138B6 /* POAPinyin.m in Sources */,
+				C1DD07B315B66C80005138B6 /* pinyin.c in Sources */,
 				C1DD077415B6654A005138B6 /* main.m in Sources */,
 				C1DD077815B6654A005138B6 /* AppDelegate.m in Sources */,
+				594D38B119B47A4E003D8446 /* PersonalDetailTableViewController.m in Sources */,
 				C1DD077B15B6654A005138B6 /* MasterViewController.m in Sources */,
 				C1DD077E15B6654A005138B6 /* DetailViewController.m in Sources */,
+				C1DEA13415B7A74B00B116CD /* GroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DD079915B6654B005138B6 /* datoucontactsTests.m in Sources */,
+				C1DD07AC15B66584005138B6 /* pinyin.c in Sources */,
+				C1DD07C215B6C085005138B6 /* POAPinyin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +369,7 @@
 		C1DD077F15B6654A005138B6 /* MasterViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1DD078015B6654A005138B6 /* en */,
+				C1DEA12C15B79C8C00B116CD /* zh-Hans */,
 			);
 			name = MasterViewController.xib;
 			sourceTree = "<group>";
@@ -331,7 +397,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -343,10 +414,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -355,15 +430,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -376,6 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "datoucontacts/datoucontacts-Prefix.pch";
 				INFOPLIST_FILE = "datoucontacts/datoucontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "datoucontacts/datoucontacts-Prefix.pch";
 				INFOPLIST_FILE = "datoucontacts/datoucontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,14 +483,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/datoucontacts.app/datoucontacts";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "datoucontacts/datoucontacts-Prefix.pch";
 				INFOPLIST_FILE = "datoucontactsTests/datoucontactsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -415,14 +499,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/datoucontacts.app/datoucontacts";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "datoucontacts/datoucontacts-Prefix.pch";
 				INFOPLIST_FILE = "datoucontactsTests/datoucontactsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -445,6 +528,7 @@
 				C1DD079E15B6654B005138B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1DD079F15B6654B005138B6 /* Build configuration list for PBXNativeTarget "datoucontactsTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +537,7 @@
 				C1DD07A115B6654B005138B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

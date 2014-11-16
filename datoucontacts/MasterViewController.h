@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
-
+@interface MasterViewController : UITableViewController<UISearchDisplayDelegate,ABNewPersonViewControllerDelegate,ABPersonViewControllerDelegate>
+{
+    NSMutableDictionary *sectionDic;
+    NSMutableDictionary *phoneDic;
+    NSMutableDictionary *contactDic;
+    NSMutableArray *filteredArray;
+    //NSMutableArray *contactNames;
+}
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
+-(void)loadContacts;
 @end
